@@ -86,7 +86,6 @@ final-project/
 ├── avatarshield/        # render pipeline (cel_shade, detect, palette, smooth)
 ├── api/                 # FastAPI wrapper — sync /ivp/render endpoint
 ├── app/                 # Expo (React Native) client — wired to /ivp/* with theme selector
-├── web/                 # Next.js web client     — DEFERRED: still wired to legacy API
 ├── assets/themes/       # 5 theme JSONs + previews
 ├── samples/input/       # local test media (gitignored)
 ├── data/output/         # rendered videos (gitignored)
@@ -140,8 +139,6 @@ verification claim. See `spec.md` §4.3 (non-claims).
 ## Client status
 
 * **`app/` (Expo / React Native)** — wired to the `/ivp/*` endpoints
-  with a theme picker (5 themes from §6.3) inside the editor.
-* **`web/` (Next.js)** — still calls the **legacy** `/preview` /
-  `/render` / `/stylize/*` endpoints that were removed in Phase 7. It
-  will not work against the new server until it is rewritten to call
-  `/ivp/*` like the mobile client now does.
+  with a theme picker (5 themes from §6.3) inside the editor. This is
+  the only first-party client; the web client has been removed (mobile
+  is the demo target).

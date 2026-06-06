@@ -205,7 +205,7 @@ Module: `scripts/phase6_render_previews.py`, `assets/themes/*.json`, `assets/the
 
 ---
 
-### Phase 7 — Cleanup (xoá legacy) ✅ (app/web rework deferred)
+### Phase 7 — Cleanup (xoá legacy) ✅ (app rework deferred; web client removed)
 
 Module deletion theo `spec.md` §5.4. Làm 1 commit riêng để diff rõ ràng.
 
@@ -243,8 +243,8 @@ Module deletion theo `spec.md` §5.4. Làm 1 commit riêng để diff rõ ràng.
   - Bỏ toàn bộ stylize + avatar-PNG routes.
   - `api/README.md` + `api/requirements.txt` đã update.
 - [ ] Expo app (`app/`) — **DEFERRED**. App hiện wire tới `/preview`, `/render`, `/stylize/*` (legacy) qua nhiều screen + store. Cần re-write `EditorScreen`/`PreviewScreen`/`api.ts`/`filters` thành "chọn theme → render đồng bộ"; risk cao cho demo nên để Phase 7 follow-up commit riêng.
-- [ ] Web client (`web/`) — **DEFERRED** cùng lý do; chỉ chạy avatar-PNG flow legacy. Nếu không demo, có thể xoá thư mục sau khi quyết.
-- [x] Update `README.md` — disclaimer mới, CLI mới, theme catalog, lưu ý app/web deferred.
+- [x] Web client (`web/`) — **REMOVED**. Mobile (`app/`) là client duy nhất; không build web.
+- [x] Update `README.md` — disclaimer mới, CLI mới, theme catalog, lưu ý app deferred + web đã xoá.
 
 **Sync point.** `git diff --stat master..ivp-pure` cho thấy net deletions ≥ net additions (kỳ vọng repo gọn đi). User cần eye-check một frame preview (theme bất kỳ) trước khi commit.
 
