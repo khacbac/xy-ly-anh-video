@@ -1,0 +1,13 @@
+{
+  "name": "porcelain-pink",
+  "description": "Bright porcelain skin with a warm pink undertone, magenta-black hair, hazel eyes — high-key shoujo. Authored in Phase 6 from spec.md §6.3.",
+  "skin_lab":  [220, 140, 144],
+  "hair_lab":  [ 65, 148, 108],
+  "lips_lab":  [145, 170, 148],
+  "eyes_lab":  [ 85, 140, 152],
+  "brows_lab": [ 55, 138, 142],
+  "saturation_boost": 1.30,
+  "edge_strength": 0.85,
+  "luminance_levels": 3,
+  "chroma_levels": 0
+}

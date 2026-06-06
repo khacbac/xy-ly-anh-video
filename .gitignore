@@ -1,0 +1,40 @@
+.venv/
+.venv-*/
+.vtoonify_venv/
+# samples/input/*
+# !samples/input/README.md
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# OS metadata
+.DS_Store
+
+# Downloaded Mediapipe .task blobs (Face Landmarker)
+.cache/
+
+# API server runtime data (uploaded inputs + rendered outputs)
+data/api_jobs/
+
+# Render outputs — new files default to ignored. Curated demo/slide artifacts
+# already in the index stay tracked. Use `git add -f` to track new ones.
+data/output/
+
+# Stylization third-party (VToonify upstream + its outputs).
+# We use it only at runtime via combo_render_video.py; weights are HF
+# symlinks. Cloning fresh: `git clone PKUWilliamYang/VToonify third_party/VToonify`.
+third_party/VToonify/
+
+# Expo app
+app/node_modules/
+app/.expo/
+app/dist/
+app/web-build/
+
+# Next.js web client
+web/node_modules/
+web/.next/
+web/out/
+web/.env.local
+web/*.tsbuildinfo

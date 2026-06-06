@@ -1,0 +1,11 @@
+# AvatarShield — core render pipeline (Python 3.10+)
+# Pure-IVP pipeline: no neural models, no MediaPipe, no torch.
+# NOTE: contrib build required — the CSRT/KCF trackers used by track.py
+# were dropped from the main opencv-python wheel (only MIL/GOTURN remain).
+opencv-contrib-python>=4.9
+numpy>=1.26
+Pillow>=10.2
+
+# Optional (uncomment when needed for Phase 8 evaluation / notebooks):
+# matplotlib>=3.8
+# jupyter>=1.0

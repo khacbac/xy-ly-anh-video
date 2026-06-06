@@ -1,0 +1,13 @@
+{
+  "name": "peach-noir",
+  "description": "Peach-neutral skin, inky black hair, deep brown eyes — low-saturation, hard-posterised noir palette. luminance_levels=2 collapses to two tones for a strong monochromatic feel.",
+  "skin_lab":  [200, 138, 146],
+  "hair_lab":  [ 28, 128, 128],
+  "lips_lab":  [140, 152, 148],
+  "eyes_lab":  [ 55, 132, 142],
+  "brows_lab": [ 32, 128, 128],
+  "saturation_boost": 0.95,
+  "edge_strength": 1.05,
+  "luminance_levels": 2,
+  "chroma_levels": 0
+}

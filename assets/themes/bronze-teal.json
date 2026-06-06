@@ -1,0 +1,13 @@
+{
+  "name": "bronze-teal",
+  "description": "Bronze skin, black hair with a teal sheen, teal eyes — sporty, mid-saturation, well-defined cel edges.",
+  "skin_lab":  [150, 148, 162],
+  "hair_lab":  [ 45, 118, 118],
+  "lips_lab":  [120, 152, 148],
+  "eyes_lab":  [100, 112, 118],
+  "brows_lab": [ 38, 128, 128],
+  "saturation_boost": 1.25,
+  "edge_strength": 0.90,
+  "luminance_levels": 3,
+  "chroma_levels": 0
+}

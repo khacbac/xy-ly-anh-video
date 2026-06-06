@@ -1,0 +1,13 @@
+{
+  "name": "tan-amber",
+  "description": "Warm, deeper tan skin, brown-amber hair, honey eyes — mid-key Studio Ghibli palette. Softer cel edges than porcelain-pink.",
+  "skin_lab":  [175, 142, 158],
+  "hair_lab":  [ 80, 140, 160],
+  "lips_lab":  [125, 158, 152],
+  "eyes_lab":  [100, 138, 160],
+  "brows_lab": [ 55, 135, 148],
+  "saturation_boost": 1.15,
+  "edge_strength": 0.75,
+  "luminance_levels": 3,
+  "chroma_levels": 0
+}

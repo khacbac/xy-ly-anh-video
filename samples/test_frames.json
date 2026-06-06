@@ -1,0 +1,43 @@
+{
+  "video": "/Users/kb/Documents/study/master/xy-ly-anh-video/final-project/samples/input/clip.mp4",
+  "fps": 60.0,
+  "frame_count": 667,
+  "frames": [
+    {
+      "index": 262,
+      "label": "front",
+      "source": "frontal",
+      "luminance": 119.11104166666667
+    },
+    {
+      "index": 6,
+      "label": "profile_left",
+      "source": "profile_l",
+      "luminance": 118.58369900173611
+    },
+    {
+      "index": 0,
+      "label": "profile_right",
+      "source": "profile_r",
+      "luminance": 118.83216579861111
+    },
+    {
+      "index": 44,
+      "label": "miss",
+      "source": "miss",
+      "luminance": 118.81583658854167
+    },
+    {
+      "index": 666,
+      "label": "low_light",
+      "source": "frontal",
+      "luminance": 72.23820421006944
+    },
+    {
+      "index": 328,
+      "label": "high_light",
+      "source": "profile_l",
+      "luminance": 123.36007052951389
+    }
+  ]
+}

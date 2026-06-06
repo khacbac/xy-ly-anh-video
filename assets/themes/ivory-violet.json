@@ -1,0 +1,13 @@
+{
+  "name": "ivory-violet",
+  "description": "Cool ivory skin, violet hair, pale blue eyes — high-saturation fantasy palette. Stronger XDoG edges to read as illustrated.",
+  "skin_lab":  [230, 132, 134],
+  "hair_lab":  [ 85, 148, 100],
+  "lips_lab":  [140, 160, 140],
+  "eyes_lab":  [135, 124, 105],
+  "brows_lab": [ 60, 130, 125],
+  "saturation_boost": 1.35,
+  "edge_strength": 0.95,
+  "luminance_levels": 3,
+  "chroma_levels": 0
+}
