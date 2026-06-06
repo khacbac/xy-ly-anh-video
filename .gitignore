@@ -1,8 +1,11 @@
 .venv/
 .venv-*/
 .vtoonify_venv/
-# samples/input/*
-# !samples/input/README.md
+# Heavy sample videos — keep README only
+samples/input/*.mp4
+
+# PowerPoint deck (binary, rewritten per edit). Export PDF for sharing.
+*.pptx
 
 # Python bytecode
 __pycache__/
